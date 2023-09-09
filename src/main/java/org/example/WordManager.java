@@ -21,14 +21,17 @@ public class WordManager {
                 + "7. 파일 저장\n"
                 + "0. 나가기\n"
                 +"********************\n"
-                +"=> 원하는 메뉴는 뭔가? "
+                +"=> 원하는 메뉴는? "
         );
         return s.nextInt();
     }
     public void start(){
         while(true){
             int menu = selectMenu();
-            if(menu == 0) break;
+            if(menu == 0){
+                System.out.println("\n프로그램 종료! 다음에 만나요~");
+                break;
+            }
             if(menu == 4){
                 wordCRUD.addWord();
             }
