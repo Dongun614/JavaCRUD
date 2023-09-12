@@ -42,6 +42,7 @@ public class WordManager {
                 wordCRUD.updateItem();
             }
             else if(menu == 6){ //데이터 삭제
+                wordCRUD.deleteItem();
             }
         }
     }
