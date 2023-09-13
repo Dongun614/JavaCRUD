@@ -45,6 +45,12 @@ public class WordManager {
             else if(menu == 6){ //데이터 삭제
                 wordCRUD.deleteItem();
             }
+            else if(menu == 7){ //데이터 삭제
+                wordCRUD.saveFile();
+            }
+            else if(menu == 6){ //데이터 삭제
+                wordCRUD.saveFile();
+            }
         }
     }
 }
