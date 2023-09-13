@@ -4,3 +4,4 @@
 1|electric|전기의, 전기를 생산하는
 1|transfer|옮기다
 2|executive|경영, 간부, 임원
+1| apple|사과
