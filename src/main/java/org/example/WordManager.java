@@ -39,6 +39,9 @@ public class WordManager {
             else if(menu == 1){
                 wordCRUD.listAll();
             }
+            else if(menu == 2){
+                wordCRUD.searchLevel();
+            }
             else if(menu == 5){ //데이터 수정
                 wordCRUD.updateItem();
             }
