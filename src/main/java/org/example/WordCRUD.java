@@ -147,7 +147,7 @@ public class WordCRUD implements ICRUD{
                 pr.write(one.toFileString() + "\n");
             }
             pr.close();
-            System.out.println("===> 데이터 저장 완료 !!!");
+            System.out.println("\n모든 단어 파일 저장 완료 !!!");
 
         } catch (IOException e){
             e.printStackTrace();
