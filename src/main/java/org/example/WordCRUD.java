@@ -83,7 +83,7 @@ public class WordCRUD implements ICRUD{
     }
 
     public void updateItem() {
-        System.out.print("=> 수정할 단어 검색 : ");
+        System.out.print("\n=> 수정할 단어 검색 : ");
         String keyword = s.next();
         ArrayList<Integer> idlist = this.listAll(keyword);
         System.out.print("=> 수정할 번호 선택 : ");
@@ -93,7 +93,7 @@ public class WordCRUD implements ICRUD{
         String meaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
-        System.out.println("단어가 수정되었습니다. ");
+        System.out.println("단어가 수정되었습니다 ");
     }
 
     public void deleteItem() {
